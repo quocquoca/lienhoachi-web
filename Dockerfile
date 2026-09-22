@@ -9,7 +9,9 @@ COPY . .
 RUN npm run build
 
 
-FROM php:8.3-cli
+FROM php:8.4-cli
+
+ENV COMPOSER_ALLOW_SUPERUSER=1
 
 RUN apt-get update && apt-get install -y \
     git \
@@ -35,19 +37,20 @@ COPY . .
 
 COPY --from=frontend /app/public/build ./public/build
 
-RUN composer install \
-    --no-dev \
-    --optimize-autoloader \
-    --no-interaction
-
 RUN mkdir -p \
     storage/framework/cache \
     storage/framework/sessions \
     storage/framework/views \
     storage/logs \
-    bootstrap/cache
+    bootstrap/cache \
+    database \
+    && chmod -R 775 storage bootstrap/cache
 
-RUN chmod -R 775 storage bootstrap/cache
+RUN composer install \
+    --no-dev \
+    --optimize-autoloader \
+    --no-interaction \
+    --ignore-platform-req=php
 
 EXPOSE 10000
 
