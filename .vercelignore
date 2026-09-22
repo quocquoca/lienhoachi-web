@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "buildCommand": "echo 'No build step'",
   "outputDirectory": "public",
   "functions": {
     "api/index.php": {
@@ -7,10 +8,6 @@
     }
   },
   "routes": [
-    {
-      "src": "/build/(.*)",
-      "dest": "/public/build/$1"
-    },
     {
       "src": "/(.*)",
       "dest": "/api/index.php"
