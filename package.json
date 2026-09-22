@@ -1,7 +1,7 @@
 {
     "scripts": {
     "dev": "vite",
-    "build": "vite build && mkdir -p dist"
+    "build": "vite build"
 }
   "version": 2,
   "buildCommand": "npm run build",
