@@ -87,6 +87,8 @@ tailwind.config = {
     <a href="#benefits" class="block py-2 text-sm font-medium text-forest-700">Công dụng</a>
     <a href="#order" class="block py-2 text-sm font-medium text-forest-700">Đặt hàng</a>
     <a href="#contact" class="block py-2 text-sm font-medium text-forest-700">Liên hệ</a>
+    <a href="/cau-chuyen-tra-la-sen-hong-sam" class="block py-2 text-sm font-medium text-forest-700">Câu chuyện</a>
+    <a href="/quy-trinh-san-xuat" class="block py-2 text-sm font-medium text-forest-700">Quy trình</a>
     <button onclick="scrollToOrder()"
       class="w-full bg-forest-600 text-white text-sm font-medium py-2.5 rounded-lg mt-1">Đặt hàng ngay</button>
   </div>

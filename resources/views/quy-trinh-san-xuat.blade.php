@@ -99,10 +99,12 @@
 
   <!-- Mobile menu -->
   <div id="mobile-menu" class="hidden md:hidden border-t border-forest-100 bg-cream px-4 py-3 space-y-2">
-    <a href="#products" class="block py-2 text-sm font-medium text-forest-700">Sản phẩm</a>
-    <a href="#benefits" class="block py-2 text-sm font-medium text-forest-700">Công dụng</a>
-    <a href="#order" class="block py-2 text-sm font-medium text-forest-700">Đặt hàng</a>
-    <a href="#contact" class="block py-2 text-sm font-medium text-forest-700">Liên hệ</a>
+    <a href="/#products" class="block py-2 text-sm font-medium text-forest-700">Sản phẩm</a>
+    <a href="/#benefits" class="block py-2 text-sm font-medium text-forest-700">Công dụng</a>
+    <a href="/#order" class="block py-2 text-sm font-medium text-forest-700">Đặt hàng</a>
+    <a href="/#contact" class="block py-2 text-sm font-medium text-forest-700">Liên hệ</a>
+    <a href="/cau-chuyen-tra-la-sen-hong-sam" class="block py-2 text-sm font-medium text-forest-700">Câu chuyện</a>
+    <a href="/quy-trinh-san-xuat" class="block py-2 text-sm font-semibold text-forest-900">Quy trình</a>
     <button onclick="scrollToOrder()"
       class="w-full bg-forest-600 text-white text-sm font-medium py-2.5 rounded-lg mt-1">Đặt hàng ngay</button>
   </div>
@@ -184,7 +186,7 @@
         <div class="bg-white rounded-3xl border border-forest-100 shadow-[0_4px_20px_rgba(29,57,35,0.05)] hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col h-full group">
           <!-- Khung video cố định tỉ lệ 4:3 -->
           <div class="relative w-full aspect-[4/3] bg-forest-900 overflow-hidden">
-            <video class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]" controls preload="metadata">
+            <video class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]" controls playsinline preload="metadata" poster="/images/thumb_3406.jpg">
               <source src="/images/IMG_3406.mp4" type="video/mp4" />
               Trình duyệt không hỗ trợ xem video.
             </video>
@@ -218,7 +220,7 @@
         <div class="bg-white rounded-3xl border border-forest-100 shadow-[0_4px_20px_rgba(29,57,35,0.05)] hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col h-full group">
           <!-- Khung video cố định tỉ lệ 4:3 -->
           <div class="relative w-full aspect-[4/3] bg-forest-900 overflow-hidden">
-            <video class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]" controls preload="metadata">
+            <video class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]" controls playsinline preload="metadata" poster="/images/thumb_3407.jpg">
               <source src="/images/IMG_3407.mp4" type="video/mp4" />
               Trình duyệt không hỗ trợ xem video.
             </video>
@@ -252,7 +254,7 @@
         <div class="bg-white rounded-3xl border border-forest-100 shadow-[0_4px_20px_rgba(29,57,35,0.05)] hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col h-full group">
           <!-- Khung video cố định tỉ lệ 4:3 -->
           <div class="relative w-full aspect-[4/3] bg-forest-900 overflow-hidden">
-            <video class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]" controls preload="metadata">
+            <video class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]" controls playsinline preload="metadata" poster="/images/thumb_3408.jpg">
               <source src="/images/IMG_3408.mp4" type="video/mp4" />
               Trình duyệt không hỗ trợ xem video.
             </video>
